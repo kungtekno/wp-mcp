@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Model Context Protocol (MCP) server providing comprehensive WordPress integration for Claude Code",
   "main": "build/index.js",
+  "bin": {
+    "wp-mcp": "build/index.js"
+  },
   "type": "module",
   "scripts": {
     "build": "tsc",
