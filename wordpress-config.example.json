@@ -1,0 +1,13 @@
+{
+  "wordpress": {
+    "site_url": "https://your-wordpress-site.com",
+    "username": "your-wordpress-username",
+    "app_password": "xxxx xxxx xxxx xxxx xxxx xxxx",
+    "verify_ssl": true,
+    "timeout": 30000,
+    "rate_limit": {
+      "requests_per_minute": 60,
+      "burst_limit": 10
+    }
+  }
+}

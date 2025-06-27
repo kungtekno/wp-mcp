@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "wordpress": {
+      "command": "node",
+      "args": ["/path/to/mcp-wordpress-server/build/index.js"],
+      "env": {
+        "WORDPRESS_CONFIG": "/path/to/your/wordpress-config.json"
+      }
+    }
+  }
+}

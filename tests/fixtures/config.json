@@ -1,0 +1,13 @@
+{
+  "wordpress": {
+    "site_url": "https://test-site.example.com",
+    "username": "testuser",
+    "app_password": "test-app-password-1234",
+    "verify_ssl": true,
+    "timeout": 30000,
+    "rate_limit": {
+      "requests_per_minute": 60,
+      "burst_limit": 10
+    }
+  }
+}
